@@ -35,15 +35,19 @@ console.log(addThreeNums(4, 2, 7));
 //I added sonsole.log so that the argument's return value could be printed.
 
 // EX 3:
-func makeFreshPesto(){
+function makeFreshPesto()   {
   console.log("Buy ingredients: basil, parmesan, romano, olive oil, pine nuts, garlic, salt, pepper");
   console.log("Pulse basil and pine nuts");
   console.log("Add garlic and cheeses");
   console.log("Slowly pour in oil");
-  console.log("Season");    }
+  console.log("Season");   
+ }
 
 makeFreshPesto();
 
+//I added the full word function to display what method I will be using. 
+//I put some spaces between the curly bracket after makeFreshPesto, as well as afer the final
+//console.log line to clearly see the code block. 
 
 //  EX 4:
 function average(num1, num2) 
