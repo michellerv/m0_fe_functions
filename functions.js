@@ -5,11 +5,33 @@
 
 // 1: Write a function named greeting that returns a string with a general greeting. 
 
+function greeting(){
+    return "HI!";
+  }
+
+  var hello = greeting()
+  var hola = greeting()
+
+  console.log(hello)
+  console.log(hola)
+  
+
 
 // 2: Write a function named customGreeting that returns a greeting WITH a specific name.
 
+function customGreeting(name){
+    return `hi, ${name}!`;
+  }
+
+  var message = customGreeting("Michelle")
+  var note = customGreeting("Chip")
+
+  console.log(message)
+  console.log(note)
+
 
 // 3: Write a function named greetPerson that takes in 3 strings, a first, middle, and last name, and returns a sentence with the full name.
+
 
 
 // 4: Write a function named square that takes in one number, and returns the square of that number.
