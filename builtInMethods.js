@@ -63,3 +63,20 @@ console.log(firstName.startsWith("J"));
 // Call a different built-in JavaScript method on each of your variables. 
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
 // Include comments above each method call explaining the impact and return value of that method.
+
+
+//The pop() method is called on the emotions variable, which stores the array ["happy", "sad", "confused"].
+// The pop() method removes the last element from the array and returns that element. 
+// In this example, the retun vlaue is "confused", because "confused" is the last element in the array.
+// The console.log statement prints the return value of the pop()method ("confused") to the console.
+var emotions = ["happy", "sad", "confused"]
+console.log(emotions.pop())
+
+// The push() method is called on the names varablem which stoes the array ["Sam", "Susy", "Riz"].
+// The push() method will add the specified element (Leah) and add it to the array.
+// In this example, the return value is 4, and ["Sam", "Susy", "Riz", Leah], because 4 is the count of elements that was added,
+// and then another console.log displays the new arrays. 
+// Both console.log statemtns print the return values of the push() method (4), then the new array to the console. 
+var names = ["Sam", "Susy", "Riz"]
+console.log(names.push("Leah"))
+console.log(names);
