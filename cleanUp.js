@@ -21,8 +21,7 @@ function askForName() {
 
 
 // EX 2:
-function addThreeNums(first, second, third) 
-{
+function addThreeNums(first, second, third) {
 var sum = first + second + third;
 return sum;
       }
@@ -30,9 +29,8 @@ return sum;
 console.log(addThreeNums(1, 2, 3));
 console.log(addThreeNums(4, 2, 7));
 
-//I changed the position of the first curly bracket so the code block can be
-//seen easier. I added a semi-colon after the var sum line for consistency. 
-//I added sonsole.log so that the argument's return value could be printed.
+// I added a semi-colon after the var sum line for consistency. 
+//I added console.log so that the argument's return value could be printed.
 
 // EX 3:
 function makeFreshPesto()   {
@@ -50,10 +48,15 @@ makeFreshPesto();
 //console.log line to clearly see the code block. 
 
 //  EX 4:
-function average(num1, num2) 
-  {
+function avg(num1, num2) {
 var sum = num1 + num2;
     var avg = sum / 2;
 
 return avg
   }
+  console.log(avg(10, 2))
+  
+//I moved the first curly bracket to be after the fuction for syntax. 
+//I changed the function name average to avg so it is consitent.
+//I added console.log to print th average of two numbers that the function
+//could average. 
