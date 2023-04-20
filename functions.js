@@ -46,6 +46,13 @@ console.log(greeting)
 // BONUS: Print a sentence that interpolates the return value of your square function.
 
 
+function square(number){
+    return  number*number
+}
+    var num1 = square(5)
+    console.log(`${num1} is the square of 5`)
+
+
 // 5: Write a function named checkStock that satisfies the following interaction pattern:
 // Hint: You will only write one checkStock function that checks the quantity and then prints the corresponding statement.
 
