@@ -8,9 +8,16 @@
 
 
 // EX 1:
-function askForName() { console.log("Hello, what is your name?") }
+function askForName() {
+  return "Hello, what is your name?";
+ }
+    console.log (askForName()) ;
+  
+// I changed where the curly brackets went and where the console.log
+//was located. The function was declared as askForName with parenthesese,
+//the function is then called later to print. The return shows what should
+//be printed when the function is called. 
 
-askForName()
 
 
 // EX 2:
