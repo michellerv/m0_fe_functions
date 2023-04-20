@@ -56,14 +56,31 @@ function square(number){
 // 5: Write a function named checkStock that satisfies the following interaction pattern:
 // Hint: You will only write one checkStock function that checks the quantity and then prints the corresponding statement.
 
-checkStock(4, "Coffee");
+function checkStock(number, item){
+
+    if (number>= 4) {
+        return `${item} is stocked`;
+    } else if (number === 3){
+        return `${item}- runnign LOW`;
+    } else if (number <= 0) {
+        return `${item} - Cheese- OUT of Stock!`;
+    } else {
+        return `${item} - Salsa running Low`
+    }
+}
+
+
+
+
+
+console.log(checkStock(4, "Coffee"));
 // => "Coffee is stocked"
 
-checkStock(3, "Tortillas");
+console.log(checkStock(3, "Tortillas"));
 // => "Tortillas - running LOW"
 
-checkStock(0, "Cheese");
+console.log(checkStock(0, "Cheese"));
 // => "Cheese - OUT of stock!"
 
-checkStock(1, "Salsa");
+console.log(checkStock(1, "Salsa"));
 // => "Salsa - running LOW"
